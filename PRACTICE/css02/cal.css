@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading1{
+    margin: auto;
+    width: 25%;
+    background-color: darkcyan;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 5px;
+    text-align: center;
+
+    /* font-family: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.formstyle{
+     background-color: rgba(10, 10, 10, 1);
+     padding: 20px;
+     border-radius: 0px;
+     box-shadow: -8px 5px 15px  rgba(0,0,0, 0.1);
+     
+}
+
+.formstyle form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    box-shadow: -8px -8px 15px rgba(255, 218, 185, 0.1) ,  5px 5px 15px rgba(0,0,0, 0.4) ;
+    background-color: transparent;
+    font-size: 25px;
+    color: rgb(255, 218, 185);
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .finalanswer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+}
+
+form .finalanswer input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    color: white;
+}
+
+form input.equalbtn{
+    width: 145px;
+}
+
+form input.operator{
+   color:darkcyan;
+   font-weight: bold;
+}

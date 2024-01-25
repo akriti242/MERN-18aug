@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css02/cal.css" rel="stylesheet">
+    <style>
+     
+    </style>
+</head>
+
+<body style="font-family: raleway;background-color: aliceblue;">
+    <div class="heading1">
+        <marquee>
+            <h1> <span style="font-family: raleway;">CALCULATOR </h1> </span>
+        </marquee>
+    </div>
+
+    <div class="container">
+        <div class="formstyle">
+            <form>
+
+                <div class="finalanswer">
+                    <input type="text" name="finalanswer">
+
+                </div>
+
+                <br>
+                <input type="button" value="AC" onclick="finalanswer.value = '' " class="operator">
+
+                <input type="button" value="%" onclick="finalanswer.value += '%' " class="operator">
+
+                <input type="button" value="." onclick="finalanswer.value += '.' " class="operator">
+
+                <input type="button" value="/" onclick="finalanswer.value += '/' " class="operator"> <br>
+
+                <input type="button" value="7" onclick="finalanswer.value += '7' ">
+
+                <input type="button" value="8" onclick="finalanswer.value += '8' ">
+
+                <input type="button" value="9" onclick="finalanswer.value += '9' ">
+
+                <input type="button" value="*" onclick="finalanswer.value += '*' " class="operator"> <br>
+
+                <input type="button" value="4" onclick="finalanswer.value += '4' ">
+
+                <input type="button" value="5" onclick="finalanswer.value += '5' ">
+
+                <input type="button" value="6" onclick="finalanswer.value += '6' ">
+
+                <input type="button" value="-" onclick="finalanswer.value += '-' " class="operator"> <br>
+
+                <input type="button" value="1" onclick="finalanswer.value += '1' ">
+
+                <input type="button" value="2" onclick="finalanswer.value += '2' ">
+
+                <input type="button" value="3" onclick="finalanswer.value += '3' ">
+
+                <input type="button" value="+" onclick="finalanswer.value += '+' " class="operator"><br>
+
+
+                <input type="button" value="00" onclick="finalanswer.value += '00' ">
+
+                <input type="button" value="0" onclick="finalanswer.value += '0' ">
+
+                <input type="button" value="x" onclick="finalanswer.value = finalanswer.value.toString().slice(0, -1)"
+                    class="operator">
+
+                <input type="button" value="=" onclick="finalanswer.value = eval(finalanswer.value) " class=" operator"> <br>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script> 	
+
+let a = {
+
+
+fname : 'vikas',
+lname : 'jain',
+age :  23,
+email: 'jainvikas@gmail.com',
+car:"bmw",
+
+favMovies : ['dhoom', 'sholay' ,'Hum'], //object array
+
+//ek or object ke andar object  //
+living : {
+
+    city  : 'Gwalior',
+    country : 'India'
+},
+
+
+salary :function (){   //function
+
+    return 25000;
+},
+
+fullname : function(){
+   // let car ="bmw1234"
+    return this.car  //local
+    
+}
+
+}  //end object//
+
+
+  document.write(a,"<br>")
+  // document.write(a.age,"<br>")
+  
+ //document.write(a.fullname())
+
+
+  //console.log(a)
+  //document.write(a.fullname());
+  //document.write(a.fname);
+  //document.write(a.favMovies[0]);
+  //document.write(a.salary());
+  //document.write(a.fullname());
+  //document.write(a.living.city);
+  //document.write(a.living.country);
+  document.write(JSON.stringify(a))
+
+ //console.log(a);
+//console.log(a.age);
+           
+            </script>
+        
+    </head>
+    <body>
+
+    </body>
+</html>
+

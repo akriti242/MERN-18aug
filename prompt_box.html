@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+
+
+let uname = prompt("Please, Enter your name :");
+
+if( uname !== null && uname !== ""){
+
+	alert("Hello, " + uname + "  !  Welcome");
+
+}
+
+else{
+	alert("Hello! ");
+}
+
+
+    let per  = prompt("Enter your Percent : ");
+		//let per = 40;
+
+		if(per >=80 && per<= 100){
+
+			alert("you are in Merit");
+		}else if(per >=60 && per < 80){
+
+			alert("you are in Ist Division.");
+		}else if(per >=45 && per < 60){
+
+			alert("you are in IIst Division.");
+		}else if(per >=33 && per < 45){
+
+			alert("you are in Iiist Division.");
+		}else if(per < 33){
+
+			alert("you are Fail");
+		}else{
+
+			alert("please enter Valid Percent");
+		}
+
+        const a = 100;
+        
+
+
+		
+
+
+let number1 = parseFloat(prompt("Enter the first number :"));
+
+let number2 = parseFloat(prompt("Enter the second number :"));
+
+let sum = number1 + number2;
+
+alert("the sum is " +  sum);
+
+
+	let age = prompt("How old are you? ");
+    
+	if(age <= 17){
+		alert("You're minor , not allowed to vote");
+	}
+	else{
+		alert("You're an adult,  you can vote")
+	}
+    </script>
+    </head>
+    <body></body>
+    </body>
+    </html>

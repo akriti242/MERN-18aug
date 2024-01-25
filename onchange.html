@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .enter{
+            width: 5%;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 10px;
+            align-items: center;
+            position: relative;
+            
+            left: 25%;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <select onchange="changeColor(this.value)" class="enter">
+
+        <option> SELECT COLOR</option>
+        <option> Red </option>
+        <option> Purple </option>
+        <option> Blue </option>
+        <option> Yellow </option>
+        <option> Green </option>
+    </select>
+
+    <script>
+        function changeColor(color){
+            document.getElementById('body').style.background = color
+        }
+    </script>
+
+</body>
+
+</html>
